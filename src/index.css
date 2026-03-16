@@ -1,6 +1,12 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import "tailwindcss";
 
 @theme {
-  --color-brand-primary: #1e3a8a;
-  --color-brand-secondary: #d97706;
+  /* --color-brand-primary: #1e3a8a;
+  --color-brand-secondary: #d97706; */
+  /* --font-sans: "Inter", sans-serif; */
+  /* --font-sans: "Poppins", sans-serif; */
+  --font-sans: "Philosopher", sans-serif;
 }
