@@ -10,7 +10,7 @@ function App() {
     <Router>
       <div className="flex flex-col min-h-screen">
         <Navbar />
-        <main className="grow pt-17">
+        <main className="grow pt-20">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/live" element={<LiveStream />} />

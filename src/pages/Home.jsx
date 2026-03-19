@@ -6,6 +6,10 @@ import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
 import event1 from "../assets/21+th+2.png";
 import event2 from "../assets/Baptism+Web+Square+1200x1200.webp";
 import event3 from "../assets/Good+Friday+Square.png";
+import connect1 from "../assets/connectpic.jpg";
+import connect2 from "../assets/connectpicc.jpg";
+import connect3 from "../assets/connectpiccc.jpg";
+import connect4 from "../assets/connectpicccc.jpg";
 
 const Home = () => {
   return (
@@ -155,65 +159,96 @@ const Home = () => {
       </section>
 
       <section className="py-20 px-10 bg-white">
-        <div className="max-w-9xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-gray-900 mb-10 text-center">
             Connect with us
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2  gap-6">
-            <div className="bg-gray-100 p-8 rounded-xl text-center hover:-translate-y-1 transition duration-300">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">
-                New Here?
-              </h3>
-              <p className="text-gray-600 mb-4">
-                Learn more about our weekend services.
-              </p>
-              <a
-                href="#"
-                className="text-blue-600 font-semibold hover:underline"
-              >
-                Learn More
-              </a>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="relative h-80 rounded-xl overflow-hidden group">
+              <img
+                src={connect1}
+                alt="pic"
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+              <div className="relative z-10 flex flex-col items-center justify-center h-full text-center p-6">
+                <h3 className="text-2xl font-bold text-white drop-shadow-md mb-2">
+                  New Here?
+                </h3>
+                <p className="text-white drop-shadow-md mb-4 font-medium">
+                  Learn more about our weekend services.
+                </p>
+                <a
+                  href="#"
+                  className="bg-white text-gray-900 px-6 py-2 rounded-full font-bold hover:bg-gray-200 transition"
+                >
+                  Learn More
+                </a>
+              </div>
+            </div>
+            <div className="relative h-80 rounded-xl overflow-hidden group">
+              <img
+                src={connect2}
+                alt="pic"
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+              <div className="relative z-10 flex flex-col items-center justify-center h-full text-center p-6">
+                <h3 className="text-2xl font-bold text-white drop-shadow-md mb-2">
+                  Small Groups
+                </h3>
+                <p className="text-white drop-shadow-md mb-4 font-medium">
+                  Find your people here.
+                </p>
+                <a
+                  href="#"
+                  className="bg-white text-gray-900 px-6 py-2 rounded-full font-bold hover:bg-gray-200 transition"
+                >
+                  Join a Group
+                </a>
+              </div>
             </div>
 
-            <div className="bg-gray-100 p-8 rounded-xl text-center hover:-translate-y-1 transition duration-300">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">
-                Small Groups
-              </h3>
-              <p className="text-gray-600 mb-4">Find your people here.</p>
-              <a
-                href="#"
-                className="text-blue-600 font-semibold hover:underline"
-              >
-                Join a Group
-              </a>
+            <div className="relative h-80 rounded-xl overflow-hidden group">
+              <img
+                src={connect3}
+                alt="pic"
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+              <div className="relative z-10 flex flex-col items-center justify-center h-full text-center p-6">
+                <h3 className="text-2xl font-bold text-white drop-shadow-md mb-2">
+                  Growth Track
+                </h3>
+                <p className="text-white drop-shadow-md mb-4 font-medium">
+                  Step into the story you were made for.
+                </p>
+                <a
+                  href="#"
+                  className="bg-white text-gray-900 px-6 py-2 rounded-full font-bold hover:bg-gray-200 transition"
+                >
+                  Get Started
+                </a>
+              </div>
             </div>
 
-            <div className="bg-gray-100 p-8 rounded-xl text-center hover:-translate-y-1 transition duration-300">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">
-                Growth Track
-              </h3>
-              <p className="text-gray-600 mb-4">
-                Step into the story you were made for.
-              </p>
-              <a
-                href="#"
-                className="text-blue-600 font-semibold hover:underline"
-              >
-                Get Started
-              </a>
-            </div>
-
-            <div className="bg-gray-100 p-8 rounded-xl text-center hover:-translate-y-1 transition duration-300">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Prayer</h3>
-              <p className="text-gray-600 mb-4">
-                We'd be honored to pray for you.
-              </p>
-              <a
-                href="#"
-                className="text-blue-600 font-semibold hover:underline"
-              >
-                Request Prayer
-              </a>
+            <div className="relative h-80 rounded-xl overflow-hidden group">
+              <img
+                src={connect4}
+                alt="pic"
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+              <div className="relative z-10 flex flex-col items-center justify-center h-full text-center p-6">
+                <h3 className="text-2xl font-bold text-white drop-shadow-md mb-2">
+                  Prayer
+                </h3>
+                <p className="text-white drop-shadow-md mb-4 font-medium">
+                  We'd be honored to pray for you.
+                </p>
+                <a
+                  href="#"
+                  className="bg-white text-gray-900 px-6 py-2 rounded-full font-bold hover:bg-gray-200 transition"
+                >
+                  Request Prayer
+                </a>
+              </div>
             </div>
           </div>
         </div>
