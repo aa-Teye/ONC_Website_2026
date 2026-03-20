@@ -49,7 +49,7 @@ const Home = () => {
             </h3>
             <p className="text-white text-3xl md:text-5xl font-serif italic leading-snug">
               We are forming fully surrendered disciples who love God, love
-              others, and share Jesus.
+              others, and share Jesus.[An Army of Overcomers]
             </p>
           </div>
 
