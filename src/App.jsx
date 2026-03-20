@@ -7,14 +7,16 @@ import Giving from "./pages/Giving";
 
 function App() {
   return (
-    <Router>
+    /* The basename tells React to look for routes inside the /ONC_Website_2026/ folder */
+    <Router basename="/ONC_Website_2026">
       <div className="flex flex-col min-h-screen">
         <Navbar />
-        <main className="grow pt-20">
+        <main className="flex-grow">
           <Routes>
+            {/* This path="/" now correctly points to your landing page */}
             <Route path="/" element={<Home />} />
-            <Route path="/live" element={<LiveStream />} />
-            <Route path="/give" element={<Giving />} />
+            <Route path="/live-stream" element={<LiveStream />} />
+            <Route path="/giving" element={<Giving />} />
           </Routes>
         </main>
         <Footer />
