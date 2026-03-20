@@ -28,7 +28,7 @@ const Home = () => {
             change anyone.
           </h1>
           <p className="text-lg md:text-xl mb-10 font-medium">
-            Join us for Sunday services at 8:00, 9:30, or 11:00 AM
+            Join us This Sunday at 8:00am - 10:30 am
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <button className="bg-white text-gray-900 px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition">
@@ -107,7 +107,7 @@ const Home = () => {
                 </div>
               </div>
               <h3 className="text-lg font-bold text-gray-900">
-                21 Days of Prayer
+               ONC Believes in Fasting and Prayer
               </h3>
               <p className="text-gray-900 text-sm mt-1 font-medium hover:underline">
                 View Event
@@ -139,7 +139,7 @@ const Home = () => {
               <div className="relative w-full aspect-4/5 bg-gray-900 mb-4 overflow-hidden">
                 <img
                   src={event3}
-                  alt="Good Friday Service"
+                  alt="Easter Service"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-700 ease-in-out"
                 />
                 <div className="absolute top-0 right-0 bg-white px-3 py-2 text-center text-gray-900">
@@ -150,7 +150,7 @@ const Home = () => {
                 </div>
               </div>
               <h3 className="text-lg font-bold text-gray-900">
-                Good Friday Service
+                Rise Jesus Convention coming soon 
               </h3>
               <p className="text-gray-500 text-xs mt-2">Apr 3, 2026</p>
             </div>
@@ -175,7 +175,7 @@ const Home = () => {
                   New Here?
                 </h3>
                 <p className="text-white drop-shadow-md mb-4 font-medium">
-                  Learn more about our weekend services.
+                  Learn more about our ministries and services.
                 </p>
                 <a
                   href="#"
@@ -193,7 +193,7 @@ const Home = () => {
               />
               <div className="relative z-10 flex flex-col items-center justify-center h-full text-center p-6">
                 <h3 className="text-2xl font-bold text-white drop-shadow-md mb-2">
-                  Small Groups
+                  The Haven ONC-Youth Ministry
                 </h3>
                 <p className="text-white drop-shadow-md mb-4 font-medium">
                   Find your people here.
@@ -202,7 +202,7 @@ const Home = () => {
                   href="#"
                   className="bg-white text-gray-900 px-6 py-2 rounded-full font-bold hover:bg-gray-200 transition"
                 >
-                  Join a Group
+                  Join a Circle
                 </a>
               </div>
             </div>
@@ -215,7 +215,7 @@ const Home = () => {
               />
               <div className="relative z-10 flex flex-col items-center justify-center h-full text-center p-6">
                 <h3 className="text-2xl font-bold text-white drop-shadow-md mb-2">
-                  Growth Track
+                  Growth Track / The Journey of Faith
                 </h3>
                 <p className="text-white drop-shadow-md mb-4 font-medium">
                   Step into the story you were made for.
@@ -257,14 +257,13 @@ const Home = () => {
       <section className="py-24 px-4 bg-gray-900 text-white text-center">
         <div className="max-w-3xl mx-auto">
           <p className="text-sm font-bold uppercase tracking-widest text-gray-400 mb-2">
-            Latest Sermon
+            Latest Sermon : The Dominion Series
           </p>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Chasing after meaning.
+            The Concept of Dominion.
           </h2>
           <p className="text-xl text-gray-300 mb-8 italic">
-            "Meaningless! Meaningless! Utterly Meaningless! Everything is
-            meaningless." - Ecc 1:2
+            "Understanding The Purpose and Power of Dominion.Genesis 1:28 
           </p>
           <button className="bg-blue-600 text-white px-8 py-3 rounded-full font-bold hover:bg-blue-700 transition">
             Watch Now

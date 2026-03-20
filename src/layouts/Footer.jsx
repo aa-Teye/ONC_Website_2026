@@ -9,8 +9,7 @@ const Footer = () => {
             OVERCOMERS NATION
           </h2>
           <p className="mb-6 max-w-sm">
-            Forming fully surrendered disciples who love God, love others, and
-            share Jesus.
+            Winning Though Faith.
           </p>
           <p className="text-sm text-gray-500">
             &copy; {new Date().getFullYear()} Overcomers Nation Church. All
@@ -47,10 +46,11 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-bold text-white mb-4">Visit Us</h3>
           <p className="mb-2"> Overcomers Church</p>
-          <p className="mb-2">Accra, Ghana</p>
-          <p className="mb-4">(+233) 55 269 4597</p>
+          <p className="mb-2">Tesano-Accra, Ghana</p>
+          <p className="mb-4">(+233) 54 636 3957</p>
           <h4 className="font-bold text-white mt-4 mb-2">Service Times</h4>
-          <p>Sundays: 8:00 AM & 10:30 AM</p>
+          <p>Sundays: 8:00 AM - 10:30 AM</p>
+          <p>Tuesdays: 6:00 PM - 10:30 PM</p>
         </div>
       </div>
     </footer>
