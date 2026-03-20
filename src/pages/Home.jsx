@@ -131,7 +131,7 @@ const Home = () => {
                   <span className="block text-xl font-medium">22</span>
                 </div>
               </div>
-              <h3 className="text-lg font-bold text-gray-900">Baptisms</h3>
+              <h3 className="text-lg font-bold text-gray-900">ONC Believes in Baptism</h3>
               <p className="text-gray-500 text-xs mt-2">Mar 22, 2026</p>
             </div>
 
